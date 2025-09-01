@@ -610,7 +610,7 @@
      "cdk-hnb659fds-assets-235612442908-eu-central-1"
     ],
     "SourceObjectKeys": [
-     "10103ce4144ebdb481d004fd7c9cca88b3fdc473ca30073b2740034231de5eb9.zip"
+     "4fbd5746b9fc5563b848160538278a54b69fd28952e9c970aeb20f05e73ab79e.zip"
     ],
     "DestinationBucketName": {
      "Ref": "WebsiteBucket75C24D94"
