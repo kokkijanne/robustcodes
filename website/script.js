@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         try {
             // Get API Gateway endpoint from CDK output
             // This will be dynamically replaced after deployment
-            const apiEndpoint = window.API_ENDPOINT || '/api';
+            const apiEndpoint = window.API_ENDPOINT || 'https://u32lgdq079.execute-api.eu-central-1.amazonaws.com/prod';
             
             const response = await fetch(`${apiEndpoint}/contact`, {
                 method: 'POST',

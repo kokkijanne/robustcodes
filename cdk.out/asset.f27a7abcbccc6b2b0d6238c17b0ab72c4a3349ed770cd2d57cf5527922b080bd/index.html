@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RobustCodes - Software Consultancy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scanlines"></div>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <span class="bracket">[</span>
+                <span class="brand">RobustCodes</span>
+                <span class="bracket">]</span>
+            </div>
+            <div class="tagline">
+                > SOFTWARE_CONSULTANCY.EXE
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="hero">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="btn red"></span>
+                            <span class="btn yellow"></span>
+                            <span class="btn green"></span>
+                        </div>
+                        <div class="terminal-title">robustcodes@terminal:~$</div>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="code-line">
+                            <span class="prompt">$</span> cat about.txt
+                        </div>
+                        <div class="output">
+                            <p>Building robust software solutions since 2024</p>
+                            <p>Specializing in modern web applications, cloud architecture, and scalable systems</p>
+                            <p>Converting your ideas into production-ready code</p>
+                        </div>
+                        <div class="code-line">
+                            <span class="prompt">$</span> ls services/
+                        </div>
+                        <div class="output services-list">
+                            <div class="service-item">
+                                <span class="service-name">web-development.js</span>
+                                <span class="service-desc">Full-stack web applications</span>
+                            </div>
+                            <div class="service-item">
+                                <span class="service-name">cloud-architecture.yml</span>
+                                <span class="service-desc">AWS, Azure, GCP solutions</span>
+                            </div>
+                            <div class="service-item">
+                                <span class="service-name">api-design.json</span>
+                                <span class="service-desc">RESTful & GraphQL APIs</span>
+                            </div>
+                            <div class="service-item">
+                                <span class="service-name">devops.sh</span>
+                                <span class="service-desc">CI/CD & Infrastructure</span>
+                            </div>
+                        </div>
+                        <div class="code-line">
+                            <span class="prompt">$</span> <span class="cursor">_</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact-section">
+                <div class="contact-container">
+                    <h2 class="section-title">
+                        <span class="comment">// Let's build something together</span>
+                    </h2>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">const name =</label>
+                            <input type="text" id="name" name="name" required placeholder="'Your Name'">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">const email =</label>
+                            <input type="email" id="email" name="email" required placeholder="'your@email.com'">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">const message =</label>
+                            <textarea id="message" name="message" required placeholder="'Tell me about your project...'"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">execute(sendMessage)</span>
+                        </button>
+                    </form>
+
+                    <div id="form-status" class="form-status hidden"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <span class="comment">// RobustCodes &copy; 2024</span>
+                </div>
+                <div class="footer-right">
+                    <span class="comment">// Powered by AWS</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
